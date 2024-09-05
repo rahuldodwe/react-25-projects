@@ -8,6 +8,7 @@ import StarRating from "./components/star-rating";
 function App() {
   return (
     <>
+    <div>
       {/* Accordian Component */}
       {/* <Accordian/> */}
 
@@ -26,6 +27,7 @@ function App() {
 
       {/* Load More Data Component */}
       <LoadMoreData/>
+      </div>
     </>
   );
 }
