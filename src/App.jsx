@@ -7,6 +7,7 @@ import RandomColor from "./components/02-random-color";
 import StarRating from "./components/03-star-rating";
 import TreeView from "./components/06-tree-view";
 import menus from "./components/06-tree-view/data";
+import LightDarkMode from "./components/08-lght-dark-mode.jsx";
 
 function App() {
   return (
@@ -38,7 +39,11 @@ function App() {
 
 
       {/* QR Code Generator */}
-      <QRCodeGenerator/>
+      {/* <QRCodeGenerator/> */}
+
+
+      {/* Light and Dark theme switch with local storage */}
+      <LightDarkMode/>
       </div>
     </>
   );
