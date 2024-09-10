@@ -1,11 +1,12 @@
-import "./App.css";
-import Accordian from "./components/accordian";
-import ImageSlider from "./components/image-slider";
-import LoadMoreData from "./components/load-more-data";
-import RandomColor from "./components/random-color";
-import StarRating from "./components/star-rating";
-import TreeView from "./components/tree-view";
-import menus from "./components/tree-view/data";
+
+import QRCodeGenerator from "./components/07-qr-code-generator";
+import Accordian from "./components/01-accordian";
+import ImageSlider from "./components/04-image-slider";
+import LoadMoreData from "./components/05-load-more-data";
+import RandomColor from "./components/02-random-color";
+import StarRating from "./components/03-star-rating";
+import TreeView from "./components/06-tree-view";
+import menus from "./components/06-tree-view/data";
 
 function App() {
   return (
@@ -33,7 +34,11 @@ function App() {
 
 
       {/* Tree view component | menu UI component | recursive navigation menu  */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+
+
+      {/* QR Code Generator */}
+      <QRCodeGenerator/>
       </div>
     </>
   );
