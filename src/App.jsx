@@ -8,6 +8,7 @@ import StarRating from "./components/03-star-rating";
 import TreeView from "./components/06-tree-view";
 import menus from "./components/06-tree-view/data";
 import LightDarkMode from "./components/08-lght-dark-mode.jsx";
+import ScrollIndocator from "./components/09-scroll-indicator/index.jsx";
 
 function App() {
   return (
@@ -43,7 +44,11 @@ function App() {
 
 
       {/* Light and Dark theme switch with local storage */}
-      <LightDarkMode/>
+      {/* <LightDarkMode/> */}
+
+
+      {/* Scroll indicator Component */}
+      <ScrollIndocator url={'https://dummyjson.com/products?limit=100'}/>
       </div>
     </>
   );
