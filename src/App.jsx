@@ -9,6 +9,7 @@ import TreeView from "./components/06-tree-view";
 import menus from "./components/06-tree-view/data";
 import LightDarkMode from "./components/08-lght-dark-mode.jsx";
 import ScrollIndocator from "./components/09-scroll-indicator/index.jsx";
+import TabTest from "./components/10-custom-tabs/tab-test.jsx";
 
 function App() {
   return (
@@ -51,7 +52,8 @@ function App() {
       {/* <ScrollIndocator url={'https://dummyjson.com/products?limit=100'}/> */}
 
 
-      
+      {/* Custom tabs component */}
+      <TabTest/>
       </div>
     </>
   );
