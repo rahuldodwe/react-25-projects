@@ -48,7 +48,10 @@ function App() {
 
 
       {/* Scroll indicator Component */}
-      <ScrollIndocator url={'https://dummyjson.com/products?limit=100'}/>
+      {/* <ScrollIndocator url={'https://dummyjson.com/products?limit=100'}/> */}
+
+
+      
       </div>
     </>
   );
