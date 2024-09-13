@@ -53,7 +53,7 @@ function App() {
 
 
       {/* Custom tabs component */}
-      <TabTest/>
+      {/* <TabTest/> */}
       </div>
     </>
   );
