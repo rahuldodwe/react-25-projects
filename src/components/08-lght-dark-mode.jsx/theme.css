@@ -32,7 +32,7 @@ p {
     color: var(---text-primay);
 }
 
-button {
+btn {
     color: var(---button-text);
     background: var(---button-bg);
     border: none;

@@ -10,6 +10,7 @@ import menus from "./components/06-tree-view/data";
 import LightDarkMode from "./components/08-lght-dark-mode.jsx";
 import ScrollIndocator from "./components/09-scroll-indicator/index.jsx";
 import TabTest from "./components/10-custom-tabs/tab-test.jsx";
+import ModalTest from "./components/11-custom-modal-popup/modal-test.jsx";
 
 function App() {
   return (
@@ -54,6 +55,13 @@ function App() {
 
       {/* Custom tabs component */}
       {/* <TabTest/> */}
+
+
+
+      {/* Custom Popup Component */}
+      <ModalTest/>
+
+      
       </div>
     </>
   );
