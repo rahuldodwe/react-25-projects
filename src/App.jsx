@@ -64,7 +64,7 @@ function App() {
 
 
       {/* Github profile finder */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
 
 
       </div>
