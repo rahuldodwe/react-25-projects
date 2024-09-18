@@ -15,19 +15,29 @@ import GithubProfileFinder from "./components/12-github-profile-finder/index.jsx
 import SearchAutoComplete from "./components/13-search-autocomplete-with-api/index.jsx";
 import TicTacToe from "./components/14-tic-tact-toe/index.jsx";
 import UseFetchHookTest from "./components/15-custom-hooks/use-fetch/test.jsx";
+import UseOnclickOutsideTest from "./components/15-custom-hooks/use-outside-click/test.jsx";
 
 function App() {
   return (
     <>
     <div>
+
+
       {/* Accordian Component */}
       {/* <Accordian/> */}
+
+
 
       {/* Random color component */}
       {/* <RandomColor/> */}
 
+
+
       {/* Star-Rating Component */}
       {/* <StarRating/> */}
+
+
+
 
       {/* Image Slider Component */}
       {/* <ImageSlider
@@ -37,24 +47,41 @@ function App() {
       /> */}
 
 
+
+
       {/* Load More Data Component */}
       {/* <LoadMoreData/> */}
+
+
+
 
 
       {/* Tree view component | menu UI component | recursive navigation menu  */}
       {/* <TreeView menus={menus} /> */}
 
 
+
+
+
       {/* QR Code Generator */}
       {/* <QRCodeGenerator/> */}
+
+
+
 
 
       {/* Light and Dark theme switch with local storage */}
       {/* <LightDarkMode/> */}
 
 
+
+
+
       {/* Scroll indicator Component */}
       {/* <ScrollIndocator url={'https://dummyjson.com/products?limit=100'}/> */}
+
+
+
 
 
       {/* Custom tabs component */}
@@ -62,24 +89,34 @@ function App() {
 
 
 
+
       {/* Custom Popup Component */}
       {/* <ModalTest/> */}
+
+
 
 
       {/* Github profile finder */}
       {/* <GithubProfileFinder/> */}
 
 
+
+
       {/* Search Auto Complete */}
       {/* <SearchAutoComplete/> */}
+
+
 
 
       {/* Tic Tac Toe */}
       {/* <TicTacToe/> */}
 
 
-      {/* UseFetch Custom Hook */}
-      <UseFetchHookTest/>
+
+
+      {/*------------- UseFetch Custom Hook ---------------*/}
+      {/* <UseFetchHookTest/> */}
+      <UseOnclickOutsideTest/>
 
 
       </div>
