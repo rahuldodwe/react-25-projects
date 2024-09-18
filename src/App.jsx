@@ -16,6 +16,7 @@ import SearchAutoComplete from "./components/13-search-autocomplete-with-api/ind
 import TicTacToe from "./components/14-tic-tact-toe/index.jsx";
 import UseFetchHookTest from "./components/15-custom-hooks/use-fetch/test.jsx";
 import UseOnclickOutsideTest from "./components/15-custom-hooks/use-outside-click/test.jsx";
+import UseWindowResizeTest from "./components/15-custom-hooks/use-window-resize/test.jsx";
 
 function App() {
   return (
@@ -116,7 +117,8 @@ function App() {
 
       {/*------------- UseFetch Custom Hook ---------------*/}
       {/* <UseFetchHookTest/> */}
-      <UseOnclickOutsideTest/>
+      {/* <UseOnclickOutsideTest/> */}
+      <UseWindowResizeTest/>
 
 
       </div>
