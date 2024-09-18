@@ -7,7 +7,7 @@ import RandomColor from "./components/02-random-color";
 import StarRating from "./components/03-star-rating";
 import TreeView from "./components/06-tree-view";
 import menus from "./components/06-tree-view/data";
-import LightDarkMode from "./components/08-lght-dark-mode.jsx";
+import LightDarkMode from "./components/08-light-dark-mode.jsx/index.jsx";
 import ScrollIndocator from "./components/09-scroll-indicator/index.jsx";
 import TabTest from "./components/10-custom-tabs/tab-test.jsx";
 import ModalTest from "./components/11-custom-modal-popup/modal-test.jsx";
@@ -74,7 +74,10 @@ function App() {
 
 
       {/* Tic Tac Toe */}
-      <TicTacToe/>
+      {/* <TicTacToe/> */}
+
+
+      {/* UseFetch Custom Hook */}
 
 
       </div>
