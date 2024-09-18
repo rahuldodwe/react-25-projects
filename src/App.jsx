@@ -14,6 +14,7 @@ import ModalTest from "./components/11-custom-modal-popup/modal-test.jsx";
 import GithubProfileFinder from "./components/12-github-profile-finder/index.jsx";
 import SearchAutoComplete from "./components/13-search-autocomplete-with-api/index.jsx";
 import TicTacToe from "./components/14-tic-tact-toe/index.jsx";
+import UseFetchHookTest from "./components/15-custom-hooks/use-fetch/test.jsx";
 
 function App() {
   return (
@@ -78,6 +79,7 @@ function App() {
 
 
       {/* UseFetch Custom Hook */}
+      <UseFetchHookTest/>
 
 
       </div>
