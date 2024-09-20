@@ -17,6 +17,7 @@ import TicTacToe from "./components/14-tic-tact-toe/index.jsx";
 import UseFetchHookTest from "./components/15-custom-hooks/use-fetch/test.jsx";
 import UseOnclickOutsideTest from "./components/15-custom-hooks/use-outside-click/test.jsx";
 import UseWindowResizeTest from "./components/15-custom-hooks/use-window-resize/test.jsx";
+import ScrollToTopAndBottom from "./components/16-scroll-to-top-and-bottom/index.jsx";
 
 function App() {
   return (
@@ -118,7 +119,12 @@ function App() {
       {/*------------- UseFetch Custom Hook ---------------*/}
       {/* <UseFetchHookTest/> */}
       {/* <UseOnclickOutsideTest/> */}
-      <UseWindowResizeTest/>
+      {/* <UseWindowResizeTest/> */}
+
+
+
+      {/* ------------Scroll To Top and Bottom-------------- */}
+      <ScrollToTopAndBottom/>
 
 
       </div>
