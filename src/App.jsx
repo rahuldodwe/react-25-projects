@@ -20,11 +20,12 @@ import UseWindowResizeTest from "./components/15-custom-hooks/use-window-resize/
 import ScrollToTopAndBottom from "./components/16-scroll-to-top-and-bottom/index.jsx";
 import ScrollToSection from "./components/16-scroll-to-top-and-bottom/scroll-to-section.jsx";
 import PaginationTest from "./components/17-pagination/test.jsx";
+import './App.css'
 
 function App() {
   return (
     <>
-    <div>
+    <div className="">
 
 
       {/* Accordian Component */}

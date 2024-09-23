@@ -1,6 +1,10 @@
 import "./pagination.css";
 
-export default function Pagination({ currentPage, totalPages = 10, onChange }) {
+export default function Pagination({
+  currentPage,
+  totalPages = 10,
+  onPageChange,
+}) {
   function generateNoOfPages() {
     const pages = [];
 
@@ -13,17 +17,29 @@ export default function Pagination({ currentPage, totalPages = 10, onChange }) {
 
   return (
     <div className="pagination">
-      <button className="pagination-btn">Prev</button>
+      <button
+        onClick={() => onPageChange(currentPage - 1)}
+        className="pagination-btn"
+        disabled={currentPage === 1}
+      >
+        Prev
+      </button>
       {generateNoOfPages().map((pageNo) => (
         <button
-          className="pagination-btn"
+          className={`pagination-btn ${currentPage === pageNo ? "active" : ""}`}
           key={pageNo}
-          onClick={() => onChange(pageNo)}
+          onClick={() => onPageChange(pageNo)}
         >
           {pageNo}
         </button>
       ))}
-      <button className="pagination-btn">Next</button>
+      <button
+        onClick={() => onPageChange(currentPage + 1)}
+        className="pagination-btn"
+        disabled={currentPage === totalPages}
+      >
+        Next
+      </button>
     </div>
   );
 }
