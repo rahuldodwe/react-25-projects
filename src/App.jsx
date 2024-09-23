@@ -135,7 +135,7 @@ function App() {
 
 
       {/* ---------------------PAGINATION------------- */}
-      <PaginationTest/>
+      {/* <PaginationTest/> */}
 
 
       </div>
