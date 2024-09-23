@@ -21,11 +21,12 @@ import ScrollToTopAndBottom from "./components/16-scroll-to-top-and-bottom/index
 import ScrollToSection from "./components/16-scroll-to-top-and-bottom/scroll-to-section.jsx";
 import PaginationTest from "./components/17-pagination/test.jsx";
 import './App.css'
+import DigitalClock from "./components/18-digital-clock/index.jsx";
 
 function App() {
   return (
     <>
-    <div className="">
+    <div className="App">
 
 
       {/* Accordian Component */}
@@ -135,7 +136,16 @@ function App() {
 
 
       {/* ---------------------PAGINATION------------- */}
-      {/* <PaginationTest/> */}
+      <PaginationTest/>
+
+
+
+      {/* --------------------Digital-Clock----------------- */}
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <DigitalClock/>
 
 
       </div>

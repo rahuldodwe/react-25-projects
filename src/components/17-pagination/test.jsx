@@ -25,7 +25,7 @@ export default function PaginationTest() {
 
   return (
     <div className="test">
-      <h1>Pagination</h1>
+      <h1>17. Pagination</h1>
       <ul className="list-items">
         {currentListOfItems.map((listItem) => (
           <li key={listItem.id}>{listItem.name}</li>
