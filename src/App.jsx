@@ -23,6 +23,7 @@ import PaginationTest from "./components/17-pagination/test.jsx";
 import './App.css'
 import DigitalClock from "./components/18-digital-clock/index.jsx";
 import CountdownTimerTest from "./components/19-count-down-timer/test.jsx";
+import StepProgressBarTest from "./components/20-step-progress-bar/test.jsx";
 
 function App() {
   return (
@@ -154,6 +155,14 @@ function App() {
       <br/>
       <br/>
         <CountdownTimerTest/>
+
+
+        {/* --------------------Step Progres Bar----------------- */}
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+        <StepProgressBarTest/>
 
       </div>
     </>
