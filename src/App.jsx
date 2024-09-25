@@ -22,6 +22,7 @@ import ScrollToSection from "./components/16-scroll-to-top-and-bottom/scroll-to-
 import PaginationTest from "./components/17-pagination/test.jsx";
 import './App.css'
 import DigitalClock from "./components/18-digital-clock/index.jsx";
+import CountdownTimerTest from "./components/19-count-down-timer/test.jsx";
 
 function App() {
   return (
@@ -147,6 +148,12 @@ function App() {
       <br/>
       <DigitalClock/>
 
+      {/* --------------------Count-Down-Timer----------------- */}
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+        <CountdownTimerTest/>
 
       </div>
     </>
