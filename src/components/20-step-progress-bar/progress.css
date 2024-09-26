@@ -1,0 +1,53 @@
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.step {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #2196f3;
+    border-radius: 8px;
+    padding: 10px 4px;
+    margin: 15px 3px;
+}
+
+.step.active {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+
+.step-buttons-wrappe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.step-buttons-wrapper button {
+    padding: 10px 20px;
+    background-color: #dcec27;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:  pointer;
+    margin: 2px 5px;
+}
+
+.step-buttons-wrapper button:disabled {
+    color: #000;
+    opacity: 0.6;
+    cursor: not-allowed;
+}

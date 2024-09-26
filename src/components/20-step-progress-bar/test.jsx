@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import StepProgressBar from ".";
+import './progress.css'
 
 const StepProgressBarTest = () => {
   const [activeStep, setActiveStep] = useState(0);

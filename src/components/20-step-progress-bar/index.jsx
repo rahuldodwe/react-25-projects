@@ -1,24 +1,27 @@
 import React, { useState } from "react";
 
 const StepProgressBar = ({ steps, activeStep, setActiveStep }) => {
-
-  handlePreviousStep() {
-
+  function handlePreviousStep() {
+    setActiveStep((prevStep) => Math.max(prevStep - 1, 0));
   }
-  handleNextStep() {
-    
+  function handleNextStep() {
+    setActiveStep((prevStep) => Math.min(prevStep + 1, steps.length - 1));
+  }
+
+  function calculateCurrentStepWidth() {
+    return `${(100 / (steps.length - 1)) * activeStep}%`;
   }
 
   return (
     <div>
       <div className="steps">
         {steps.map((stepItem, index) => (
-          <div key={index}>{stepItem}</div>
+          <div className={`step ${index <= activeStep ? 'active' : ''}`} style={{width : calculateCurrentStepWidth()}} key={index}>{stepItem}</div>
         ))}
       </div>
       <div className="step-buttons-wrapper">
-        <button onClick={handlePreviousStep}>Previous Step</button>
-        <button onClick={handleNextStep}>Next Step</button>
+        <button disabled={activeStep === 0} onClick={handlePreviousStep}>Previous Step</button>
+        <button disabled={activeStep === steps.length -1} onClick={handleNextStep}>Next Step</button>
       </div>
     </div>
   );
