@@ -38,6 +38,8 @@ export default function GithubProfileFinder() {
   }
 
   return (
+    <>
+    <h1 className="m-t">12. Github Profile Finder</h1>
     <div className="github-profile-container">
       <div className="input-wrapper">
         <input
@@ -51,5 +53,8 @@ export default function GithubProfileFinder() {
       </div>
       {userData !== null ? <User user={userData} /> : null}
     </div>
+    </>
   );
 }
+
+

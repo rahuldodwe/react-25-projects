@@ -10,6 +10,7 @@ export default function Tabs({ tabsContent, onChange }) {
 
   return (
     <div className="wrapper">
+      <h1>10. Custom Tabs</h1>
       <div className="heading">
         {tabsContent.map((tabItem, index) => (
           <div

@@ -48,6 +48,8 @@ export default function ImageSlider({ url, limit = 5, page = 1 }) {
 
   return (
     <>
+    <h1 className="four">04. Image Slider</h1>
+
       <div className="container">
         <BsArrowLeftCircleFill
           onClick={handlePrevious}

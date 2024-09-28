@@ -13,7 +13,7 @@ export default function QRCodeGenerator() {
 
   return (
     <div className="QR">
-      <h1>QR Code Generator</h1>
+      <h1>07. QR Code Generator</h1>
       <div>
         <input
           onChange={(e) => setInput(e.target.value)}

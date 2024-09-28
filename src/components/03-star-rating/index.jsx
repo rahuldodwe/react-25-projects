@@ -20,6 +20,7 @@ export default function StarRating({ noOfstars = 5 }) {
 
   return (
     <div className="star-rating">
+      <h1>03. Star Rating</h1>
       {[...Array(noOfstars)].map((_, index) => {
         index += 1;
         

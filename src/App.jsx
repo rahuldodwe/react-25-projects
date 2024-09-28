@@ -31,93 +31,93 @@ function App() {
     <div className="App">
 
 
-      {/* Accordian Component */}
-      {/* <Accordian/> */}
+      {/*01. Accordian Component */}
+      <Accordian/>
 
 
 
-      {/* Random color component */}
-      {/* <RandomColor/> */}
+      {/*02. Random color component */}
+      <RandomColor/>
 
 
 
       {/* Star-Rating Component */}
-      {/* <StarRating/> */}
+      <StarRating/>
 
 
 
 
-      {/* Image Slider Component */}
-      {/* <ImageSlider
+      {/*04. Image Slider Component */}
+      <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
-      /> */}
+      />
 
 
 
 
-      {/* Load More Data Component */}
-      {/* <LoadMoreData/> */}
-
-
-
-
-
-      {/* Tree view component | menu UI component | recursive navigation menu  */}
-      {/* <TreeView menus={menus} /> */}
+      {/*05. Load More Data Component */}
+      <LoadMoreData/>
 
 
 
 
 
-      {/* QR Code Generator */}
-      {/* <QRCodeGenerator/> */}
+      {/*06.  Tree view component | menu UI component | recursive navigation menu  */}
+      <TreeView menus={menus} />
 
 
 
 
 
-      {/* Light and Dark theme switch with local storage */}
-      {/* <LightDarkMode/> */}
+      {/*07. QR Code Generator */}
+      <QRCodeGenerator/>
 
 
 
 
 
-      {/* Scroll indicator Component */}
+      {/*08. Light and Dark theme switch with local storage */}
+      <LightDarkMode/>
+
+
+
+
+
+      {/*09. Scroll indicator Component */}
       {/* <ScrollIndocator url={'https://dummyjson.com/products?limit=100'}/> */}
 
 
 
 
 
-      {/* Custom tabs component */}
-      {/* <TabTest/> */}
+      {/*10 Custom tabs component */}
+      <TabTest/>
 
 
 
 
-      {/* Custom Popup Component */}
-      {/* <ModalTest/> */}
+      {/*11. Custom Popup Component */}
+      <ModalTest/>
 
 
 
 
-      {/* Github profile finder */}
-      {/* <GithubProfileFinder/> */}
+      {/*12. Github profile finder */}
+      <GithubProfileFinder/>
 
 
 
 
-      {/* Search Auto Complete */}
-      {/* <SearchAutoComplete/> */}
+      {/*13. Search Auto Complete */}
+      <SearchAutoComplete/>
 
 
 
 
       {/* Tic Tac Toe */}
-      {/* <TicTacToe/> */}
+      <TicTacToe/>
 
 
 
@@ -132,7 +132,7 @@ function App() {
       {/* ------------Scroll To Top and Bottom-------------- */}
       {/* <ScrollToTopAndBottom/> */}
       {/* -----------Scroll To Section------------ */}
-      {/* <ScrollToSection/> */}
+      <ScrollToSection/>
 
 
 

@@ -1,0 +1,10 @@
+
+.btns {
+    margin: 4px 8px ;
+    padding: 2px 4px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    font-weight: bold;
+}

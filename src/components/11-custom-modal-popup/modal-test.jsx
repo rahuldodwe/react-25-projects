@@ -15,9 +15,12 @@ export default function ModalTest() {
     }
 
     return (
+        <>
+        <h1>11. Custom Pop-up</h1>
         <div className="home">
         <button className="btn" onClick={handleToggleModalPopup} >Open Modal Popup</button>
         {showModalPopup && <Modal onClose={onClose} body={<div>Customized body</div>} />}
         </div>
+        </>
     )
 }

@@ -61,6 +61,8 @@ export default function SearchAutoComplete() {
   }
 
   return (
+    <>
+    <h1 className="h-t">13. Search Auto-Complete</h1>
     <div className="search-autocomplete-container">
       <input
         value={searchParam}
@@ -74,5 +76,6 @@ export default function SearchAutoComplete() {
         <Suggesstions handleClick={handleClick} data={filteredUsers} />
       )}
     </div>
+    </>
   );
 }

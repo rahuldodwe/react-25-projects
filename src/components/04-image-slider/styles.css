@@ -1,4 +1,8 @@
 
+.four {
+    margin-top: 100px;
+}
+
 .container {
      position: relative;
      display: flex;
@@ -6,6 +10,8 @@
      align-items: center;
      width: 600px;
      height: 450px;
+     margin-left: auto;
+     margin-right: auto;
 }
 
 

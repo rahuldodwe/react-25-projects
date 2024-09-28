@@ -11,8 +11,8 @@ export default function LoadMoreData() {
     try {
       setLoading(true);
       const response = await fetch(
-        `https://dummyjson.com/products?limit=20&skip=${
-          count === 0 ? 0 : count * 20
+        `https://dummyjson.com/products?limit=10&skip=${
+          count === 0 ? 0 : count * 10
         }`
       );
 
@@ -36,7 +36,7 @@ export default function LoadMoreData() {
 
   useEffect(() => {
     
-    if(products && products.length === 100) 
+    if(products && products.length === 50) 
       setDisableButton(true)
 
   }, [products]);
@@ -50,6 +50,7 @@ export default function LoadMoreData() {
   return (
     <>
       <div className="load-more-container">
+        <h1>05. Load More Data</h1>
         <div className="product-container">
           {products && products.length
             ? products.map((item) => (
