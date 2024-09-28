@@ -16,7 +16,7 @@ export default function DigitalClock() {
 
   return (
     <div className="digital-clock">
-      <h1>18. Digital Clock</h1>
+      <h1 className="m-t">18. Digital Clock</h1>
       <div className="clock">
         <div className="time">
           <span>{time.getHours().toString().padStart(2, "0")}</span>:

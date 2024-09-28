@@ -12,7 +12,7 @@ export default function MenuItem({ item }) {
     });
   }
 
-  console.log(displayCurrentChildren);
+  // console.log(displayCurrentChildren);
 
   return (
     <li>

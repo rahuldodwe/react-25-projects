@@ -17,7 +17,7 @@ export default function RandomColor() {
       hexColor += hex[randomColorUtility(hex.length)]
     }
 
-    console.log(hexColor);
+    // console.log(hexColor);
     setColor(hexColor)
 
   }

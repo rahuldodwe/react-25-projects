@@ -17,13 +17,14 @@ export default function LoadMoreData() {
       );
 
       const result = await response.json();
+      console.log(result)
 
       if (result && result.products && result.products.length) {
         setProducts((prevData) => [...prevData, ...result.products]);
         setLoading(false);
       }
 
-      console.log(result);
+      // console.log(result);
     } catch (e) {
       // console.log(e);
       setLoading(false);

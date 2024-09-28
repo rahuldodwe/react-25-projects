@@ -24,6 +24,7 @@ import './App.css'
 import DigitalClock from "./components/18-digital-clock/index.jsx";
 import CountdownTimerTest from "./components/19-count-down-timer/test.jsx";
 import StepProgressBarTest from "./components/20-step-progress-bar/test.jsx";
+import RandomQuoteGenerator from "./components/21-Random-Qoute-Generator/index.jsx";
 
 function App() {
   return (
@@ -116,20 +117,20 @@ function App() {
 
 
 
-      {/* Tic Tac Toe */}
+      {/*14. Tic Tac Toe */}
       <TicTacToe/>
 
 
 
 
-      {/*------------- UseFetch Custom Hook ---------------*/}
+      {/*-15.------------ UseFetch Custom Hook ---------------*/}
       {/* <UseFetchHookTest/> */}
       {/* <UseOnclickOutsideTest/> */}
       {/* <UseWindowResizeTest/> */}
 
 
 
-      {/* ------------Scroll To Top and Bottom-------------- */}
+      {/* 16.------------Scroll To Top and Bottom-------------- */}
       {/* <ScrollToTopAndBottom/> */}
       {/* -----------Scroll To Section------------ */}
       <ScrollToSection/>
@@ -137,19 +138,19 @@ function App() {
 
 
 
-      {/* ---------------------PAGINATION------------- */}
+      {/* 17---------------------PAGINATION------------- */}
       <PaginationTest/>
 
 
 
-      {/* --------------------Digital-Clock----------------- */}
+      {/*18 --------------------Digital-Clock----------------- */}
       <br/>
       <br/>
       <br/>
       <br/>
       <DigitalClock/>
 
-      {/* --------------------Count-Down-Timer----------------- */}
+      {/*19 --------------------Count-Down-Timer----------------- */}
       <br/>
       <br/>
       <br/>
@@ -157,12 +158,19 @@ function App() {
         <CountdownTimerTest/>
 
 
-        {/* --------------------Step Progres Bar----------------- */}
+        {/*20 --------------------Step Progres Bar----------------- */}
       <br/>
       <br/>
       <br/>
       <br/>
         <StepProgressBarTest/>
+
+         {/*21 --------------------Random Quote Generator----------------- */}
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <RandomQuoteGenerator/>
 
 
 

@@ -7,7 +7,7 @@ export default function LightDarkMode() {
   function handleToggleTheme() {
     setTheme(theme === "light" ? "dark" : "light");
   }
-  console.log(theme);
+  // console.log(theme);
 
   return (
     <><h1 className="m-t">08. Light & Dark mode</h1>

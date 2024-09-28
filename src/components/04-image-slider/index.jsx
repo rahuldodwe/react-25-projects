@@ -37,7 +37,7 @@ export default function ImageSlider({ url, limit = 5, page = 1 }) {
     if (url !== "") fetchImages(url);
   }, [url]);
 
-  console.log(images);
+  // console.log(images);
 
   if (loading) {
     return <div className="conatiner">Loading data ! Please wait</div>;
