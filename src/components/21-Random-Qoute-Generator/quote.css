@@ -36,4 +36,9 @@
     border: none;
     font-weight: bold;
     border-radius: 10px;
+    transition: 100ms;
+}
+
+.refesh-btn:hover{
+    background-color: #99e910;
 }

@@ -1,4 +1,3 @@
-
 import QRCodeGenerator from "./components/07-qr-code-generator";
 import Accordian from "./components/01-accordian";
 import ImageSlider from "./components/04-image-slider";
@@ -20,7 +19,7 @@ import UseWindowResizeTest from "./components/15-custom-hooks/use-window-resize/
 import ScrollToTopAndBottom from "./components/16-scroll-to-top-and-bottom/index.jsx";
 import ScrollToSection from "./components/16-scroll-to-top-and-bottom/scroll-to-section.jsx";
 import PaginationTest from "./components/17-pagination/test.jsx";
-import './App.css'
+import "./App.css";
 import DigitalClock from "./components/18-digital-clock/index.jsx";
 import CountdownTimerTest from "./components/19-count-down-timer/test.jsx";
 import StepProgressBarTest from "./components/20-step-progress-bar/test.jsx";
@@ -29,151 +28,100 @@ import RandomQuoteGenerator from "./components/21-Random-Qoute-Generator/index.j
 function App() {
   return (
     <>
-    <div className="App">
-
-
-      {/*01. Accordian Component */}
-      <Accordian/>
-
-
-
-      {/*02. Random color component */}
-      <RandomColor/>
-
-
-
-      {/* Star-Rating Component */}
-      <StarRating/>
-
-
-
-
-      {/*04. Image Slider Component */}
-      <ImageSlider
-        url={"https://picsum.photos/v2/list"}
-        page={"1"}
-        limit={"10"}
-      />
-
-
-
-
-      {/*05. Load More Data Component */}
-      <LoadMoreData/>
-
-
-
-
-
-      {/*06.  Tree view component | menu UI component | recursive navigation menu  */}
-      <TreeView menus={menus} />
-
-
-
-
-
-      {/*07. QR Code Generator */}
-      <QRCodeGenerator/>
-
-
-
-
-
-      {/*08. Light and Dark theme switch with local storage */}
-      <LightDarkMode/>
-
-
-
-
-
-      {/*09. Scroll indicator Component */}
-      {/* <ScrollIndocator url={'https://dummyjson.com/products?limit=100'}/> */}
-
-
-
-
-
-      {/*10 Custom tabs component */}
-      <TabTest/>
-
-
-
-
-      {/*11. Custom Popup Component */}
-      <ModalTest/>
-
-
-
-
-      {/*12. Github profile finder */}
-      <GithubProfileFinder/>
-
-
-
-
-      {/*13. Search Auto Complete */}
-      <SearchAutoComplete/>
-
-
-
-
-      {/*14. Tic Tac Toe */}
-      <TicTacToe/>
-
-
-
-
-      {/*-15.------------ UseFetch Custom Hook ---------------*/}
-      {/* <UseFetchHookTest/> */}
-      {/* <UseOnclickOutsideTest/> */}
-      {/* <UseWindowResizeTest/> */}
-
-
-
-      {/* 16.------------Scroll To Top and Bottom-------------- */}
-      {/* <ScrollToTopAndBottom/> */}
-      {/* -----------Scroll To Section------------ */}
-      <ScrollToSection/>
-
-
-
-
-      {/* 17---------------------PAGINATION------------- */}
-      <PaginationTest/>
-
-
-
-      {/*18 --------------------Digital-Clock----------------- */}
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <DigitalClock/>
-
-      {/*19 --------------------Count-Down-Timer----------------- */}
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-        <CountdownTimerTest/>
-
+      <div className="App">
+        {/*01. Accordian Component */}
+        <Accordian />
+
+        {/*02. Random color component */}
+        <RandomColor />
+
+        {/* Star-Rating Component */}
+        <StarRating />
+
+        {/*04. Image Slider Component */}
+        <ImageSlider
+          url={"https://picsum.photos/v2/list"}
+          page={"1"}
+          limit={"10"}
+        />
+
+        {/*05. Load More Data Component */}
+        <LoadMoreData />
+
+        {/*06.  Tree view component | menu UI component | recursive navigation menu  */}
+        <TreeView menus={menus} />
+
+        {/*07. QR Code Generator */}
+        <QRCodeGenerator />
+
+        {/*08. Light and Dark theme switch with local storage */}
+        <LightDarkMode />
+
+        {/*09. Scroll indicator Component */}
+        {/* <ScrollIndocator url={'https://dummyjson.com/products?limit=100'}/> */}
+
+        {/*10 Custom tabs component */}
+        <TabTest />
+
+        {/*11. Custom Popup Component */}
+        <ModalTest />
+
+        {/*12. Github profile finder */}
+        <GithubProfileFinder />
+
+        {/*13. Search Auto Complete */}
+        <SearchAutoComplete />
+
+        {/*14. Tic Tac Toe */}
+        <TicTacToe />
+
+        {/*-15.------------ UseFetch Custom Hook ---------------*/}
+        {/* <UseFetchHookTest/> */}
+        {/* <UseOnclickOutsideTest/> */}
+        {/* <UseWindowResizeTest/> */}
+
+        {/* 16.------------Scroll To Top and Bottom-------------- */}
+        {/* <ScrollToTopAndBottom/> */}
+        {/* -----------Scroll To Section------------ */}
+        <ScrollToSection />
+
+        {/* 17---------------------PAGINATION------------- */}
+        <PaginationTest />
+
+        {/*18 --------------------Digital-Clock----------------- */}
+        <br />
+        <br />
+        <br />
+        <br />
+        <DigitalClock />
+
+        {/*19 --------------------Count-Down-Timer----------------- */}
+        <br />
+        <br />
+        <br />
+        <br />
+        <CountdownTimerTest />
 
         {/*20 --------------------Step Progres Bar----------------- */}
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-        <StepProgressBarTest/>
+        <br />
+        <br />
+        <br />
+        <br />
+        <StepProgressBarTest />
 
-         {/*21 --------------------Random Quote Generator----------------- */}
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <RandomQuoteGenerator/>
+        {/*21 --------------------Random Quote Generator----------------- */}
+        <br />
+        <br />
+        <br />
+        <br />
+        <RandomQuoteGenerator />
 
-
-
+        {/*22 --------------------Tool- tir----------------- */}
+        <br />
+        <br />
+        <br />
+        <br />
+        <RandomQuoteGenerator />
       </div>
     </>
   );
