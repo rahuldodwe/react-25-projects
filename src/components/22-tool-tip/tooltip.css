@@ -11,12 +11,14 @@
     border-radius: 5px;
     cursor: pointer;
     border: 1px solid #000;
+    margin-top: 10px;
 
 }
 
 .tooltip {
+    margin-top: 10px;
     position: absolute;
-    top: calc(-100% - 70px);
+    top: calc(-0% - 50px);
     transform: translate(-35%);
     background-color: #000;
     color: white;

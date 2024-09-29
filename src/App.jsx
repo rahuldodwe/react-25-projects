@@ -25,6 +25,7 @@ import CountdownTimerTest from "./components/19-count-down-timer/test.jsx";
 import StepProgressBarTest from "./components/20-step-progress-bar/test.jsx";
 import RandomQuoteGenerator from "./components/21-Random-Qoute-Generator/index.jsx";
 import TooltipTest from "./components/22-tool-tip/tooltiptest.jsx";
+import CurrencyConverter from "./components/23-currecy-converter/index.jsx";
 
 function App() {
   return (
@@ -123,6 +124,13 @@ function App() {
         <br />
         <br />
         <TooltipTest />
+
+        {/*22 --------------------Currenct-Converter---------------- */}
+        <br />
+        <br />
+        <br />
+        <br />
+        <CurrencyConverter />
       </div>
     </>
   );
