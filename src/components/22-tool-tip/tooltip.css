@@ -1,0 +1,31 @@
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.hov{
+    background-color: #adda3b;
+    padding: 3px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #000;
+
+}
+
+.tooltip {
+    position: absolute;
+    top: calc(-100% - 70px);
+    transform: translate(-35%);
+    background-color: #000;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    min-width: 300px;
+}
+
+.con {
+    color: #fff;
+}
